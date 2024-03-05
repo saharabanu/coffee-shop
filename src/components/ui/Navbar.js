@@ -16,10 +16,10 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="pt-1">
+    <header className="pt-1  font-sanspro">
       <div className="container">
         <div className=" lg:px-20 px-5 font-bold ">
-          <div className="hidden lg:grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 sm:c gap-4 items-center text-lg ">
+          <div className="hidden lg:grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 sm:c gap-4 items-center text-lg pb-5">
             <div>
               <ul className="flex items-center space-x-6 ">
                 <li className="hover:font-bold transition-all duration-300 delay-300">

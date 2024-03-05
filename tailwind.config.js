@@ -11,8 +11,9 @@ module.exports = {
 
       fontFamily: {
         lemon: ["Lemon", "serif"],
-        sanspro: ["sanspro", "serif"],
-        // baklida: ["baklida", "serif"],
+        sanspro: ["Value Sans Pro", "serif"],
+        baklida: ["Bakilda Histori", "serif"],
+        lemonada: ["Lemonada", "cursive"],
        
       },
       colors:{

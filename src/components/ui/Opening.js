@@ -30,16 +30,7 @@ const Opening = () => {
                 <p className="text-center">New York, UK</p>
               </div>
             </div>
-            {/* <div >
-            <div className="before:content-['']  before:bg-primaryWine1  w-14 h-24 ">
-
-            </div>
-          <div className="text-primaryWine1 text-center ">
-                <h2 className="py-3 text-lg font-bold">Our Live Location</h2>
-                <p>848 A 28TH ST, Brooklyn </p>
-                <p className="text-center">New York, UK</p>
-            </div>
-          </div> */}
+           
             <div className="relative before:bg-primaryWine1 before:block before:w-[2px] before:opacity-5 before:h-24">
               <div className="text-primaryWine1  absolute inset-0 text-center">
                 <h2 className="py-3 text-lg font-bold">Book A Table Now</h2>

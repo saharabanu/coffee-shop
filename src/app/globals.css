@@ -1,37 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
-@font-face {
-    font-family: sanspro;
-    src: url('../assets/fonts/Bakilda-Histori-Font/bakilda-histori.ttf'),
-   
-   
-};
-/* url('../assets/fonts/font/ValueSansPro-Black.eot'), */
-/* @font-face {
-    font-family:bakilda;
-    src: url('../assets/fonts/Bakilda-Histori-Font/bakilda-histori.ttf') ;
-}; */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* @layer base {
-    @font-face {
-      font-family: sanspro;
-      font-weight: 400;
-      src: url(../assets/fonts/font/ValueSansPro-Black.eot) format("eot");
-    }
-    @font-face {
-      font-family: baklida;
-      font-weight: 500;
-      src: url(../assets/fonts/Bakilda-Histori-Font/bakilda-histori.ttf) format("ttf");
-    }
-  } */
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@font-face {
+    font-family: sanspro;
+    src: url('../assets/fonts/font/ValueSansPro-Black.eot'),
+   
+   
+};
+/* url('../assets/fonts/font/ValueSansPro-Black.eot'), */
+@font-face {
+    font-family:bakilda;
+    src: url('../assets/fonts/Bakilda-Histori-Font/bakilda-histori.ttf') ;
+};
+@font-face {
+    font-family:lemonada;
+    src: url('../assets/fonts/Lemonada/Lemonada-VariableFont_wght.ttf') ;
+};
 
+/* @font-face {
+    font-family: 'Value Sans Pro';
+    src: url('ValueSansPro-Regular.eot');
+    src: local('Value Sans Pro Regular'), local('ValueSansPro-Regular'),
+        url('ValueSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ValueSansPro-Regular.woff2') format('woff2'),
+        url('ValueSansPro-Regular.woff') format('woff'),
+        url('ValueSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sanspro;
+    font-family: Value Sans Pro;
 }
 a{
     text-decoration: none;
