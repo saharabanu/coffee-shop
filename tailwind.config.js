@@ -17,11 +17,14 @@ module.exports = {
       },
       colors:{
         'primaryWine':"#86371C",
+        'primaryWine1':"#270A05",
+        'purple':"#FFFAF2",
         
         
       },
       backgroundImage: {
         'banner-bg':"url('/banner-bg.png')",
+        'open-bg':"url('/opening-bg.png)",
         'footer-bg': "url('/footer.png')",
 
         
