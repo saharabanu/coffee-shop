@@ -8,9 +8,22 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
+
+      fontFamily: {
+        lemon: ["Lemon", "serif"],
+        sanspro: ["sanspro", "serif"],
+        // baklida: ["baklida", "serif"],
+       
+      },
+      colors:{
+        'primaryWine':"#86371C",
         
+        
+      },
+      backgroundImage: {
+        'banner-bg':"url('/banner-bg.png')",
         'footer-bg': "url('/footer.png')",
+
         
       },
     },

@@ -15,7 +15,7 @@ const ResponsiveNavbar = () => {
   return (
     <header>
       <div className="container">
-        <div className="lg:px-20 px-5 py-5">
+        <div className=" ">
           <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 sm:c gap-4 items-center">
             <div className="flex justify-between items-center lg:hidden">
               <Image src={logo} width={150} height={50} alt="Logo" />
