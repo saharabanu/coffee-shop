@@ -10,10 +10,10 @@ const Footer = () => {
     <>
     <footer className=" bg-footer-bg bg-no-repeat bg-cover bg-center py-5 text-white mix-blend-overlay">
         <div className=" lg:px-20 px-5">
-             <div className="grid lg:grid-cols-3 gap-4 items-center">
+             <div className="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 sm:c gap-4 items-center">
 
                 <div className='flex'>
-                    <Image src={footerLogo} width={100} height={10} alt='FooterLogo'/>
+                    <Image src={footerLogo} width={150} height={10} alt='FooterLogo'/>
                    
 
                 </div>
@@ -31,7 +31,7 @@ const Footer = () => {
                         
                     </ul>
                 </div>
-                <div className='lg:pl-40'>
+                <div className='lg:pl-40 md:pl-20'>
                     <ul className='flex items-center space-x-2'>
                         <li className='border rounded-full border-white flex justify-center items-center p-2 transition-all duration-300 delay-300 hover:text-red-200'>
                             <Link href='/'>
