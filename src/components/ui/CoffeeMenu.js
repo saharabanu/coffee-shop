@@ -17,16 +17,16 @@ const CoffeeMenu = () => {
             </h5>
             
           </div> */}
-          <div className="relative flex justify-center item-center" >
+          <div className="relative flex justify-center item-center">
             <div>
-            <h5 className=" font-lemonada text-primaryWine">
-              Why Choose Us
-            </h5>
+              <h5 className=" font-lemonada text-primaryWine">Why Choose Us</h5>
 
-            <div className=" before:block before:w-10 before:h-[2px] before:bg-primaryWine before:absolute before:left-[430px] before:top-1/2 before:transform before:-translate-y-1/2 after:block after:w-10 after:h-[2px] after:bg-primaryWine after:absolute after:right-[430px] after:top-1/2 after:transform after:-translate-y-1/2"></div>
+              {/* <div className=" before:block before:w-10 before:h-[2px] before:bg-primaryWine before:absolute before:left-[430px] before:top-1/2 before:transform before:-translate-y-1/2 after:block after:w-10 after:h-[2px] after:bg-primaryWine after:absolute after:right-[430px] after:top-1/2 after:transform after:-translate-y-1/2"></div> */}
             </div>
           </div>
-          <p className="py-2 font-baklida text-2xl text-center">Unlocklive Coffee Menu</p>
+          <p className="py-2 font-baklida text-2xl text-center">
+            Unlocklive Coffee Menu
+          </p>
 
           <div className="grid lg:grid-cols-2 gap-5 py-16 text-primaryWine1">
             <div className="border rounded-xl border-gray-300 shadow-md p-4">
@@ -41,7 +41,9 @@ const CoffeeMenu = () => {
                     />
                   </div>
                   <div>
-                    <h2 className="font-semibold text-xl">Double Espresso x2</h2>
+                    <h2 className="font-semibold text-xl">
+                      Double Espresso x2
+                    </h2>
                     <p className="font-sanspro">
                       There are many variations of passages Lorem Ipsum form
                     </p>
@@ -64,7 +66,9 @@ const CoffeeMenu = () => {
                     />
                   </div>
                   <div>
-                    <h2 className="font-semibold text-xl">Hazelnut Heaven Latte</h2>
+                    <h2 className="font-semibold text-xl">
+                      Hazelnut Heaven Latte
+                    </h2>
                     <p className="font-sanspro">
                       There are many variations of passages Lorem Ipsum form
                     </p>
@@ -87,7 +91,9 @@ const CoffeeMenu = () => {
                     />
                   </div>
                   <div>
-                    <h2 className="font-semibold text-xl">Salted Caramel Cold Brew</h2>
+                    <h2 className="font-semibold text-xl">
+                      Salted Caramel Cold Brew
+                    </h2>
                     <p className="font-sanspro">
                       There are many variations of passages Lorem Ipsum form
                     </p>
@@ -121,6 +127,11 @@ const CoffeeMenu = () => {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <button className="text-primaryWine border border-primaryWine   px-5 py-3 rounded-xl outline-none ">
+            View All Menu
+            </button>
           </div>
         </div>
       </div>
