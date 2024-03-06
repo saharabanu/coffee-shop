@@ -18,18 +18,12 @@
     font-family:lemonada;
     src: url('../assets/fonts/Lemonada/Lemonada-VariableFont_wght.ttf') ;
 };
+@font-face {
+    font-family:abril;
+    src: url('../assets/fonts/Abril_Display_Black.otf') ;
+};
 
-/* @font-face {
-    font-family: 'Value Sans Pro';
-    src: url('ValueSansPro-Regular.eot');
-    src: local('Value Sans Pro Regular'), local('ValueSansPro-Regular'),
-        url('ValueSansPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('ValueSansPro-Regular.woff2') format('woff2'),
-        url('ValueSansPro-Regular.woff') format('woff'),
-        url('ValueSansPro-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
+
 *{
     margin:0;
     padding: 0;
@@ -42,13 +36,18 @@ a{
 ul li{
     list-style: none;
 }
-/* .banner-heading1{
-    font-family: "Lemon", serif; 
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -6px) !important;
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
 }
-.banner-heading2{
-    font-family: sanpro; 
-    font-size: 40px;
-} */
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #86371C !important;
+    padding: 5px !important;
+}
 
 
 

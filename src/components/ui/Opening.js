@@ -11,10 +11,10 @@ const Opening = () => {
     setShowVideo(!showVideo);
   };
   return (
-    <section className="relative">
+    <section className="lg:relative font-sanspro lg:mt-0 mt-16">
       <div className=" bg-purple  py-5 ">
         <div className="container lg:px-20 px-5">
-          <div className="grid lg:grid-cols-3 gap-4 pl-48">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 lg:pl-48">
             <div>
               <div className="text-primaryWine1 text-center">
                 <h2 className="py-3 text-lg font-bold">Our Opening Hours</h2>
@@ -43,7 +43,7 @@ const Opening = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-0 lg:px-20 px-5">
+      <div className="lg:absolute  top-0 lg:px-20 px-5 lg:mx-0 mx-24">
         <div className="bg-primaryWine tex-white relative h-60 w-52 rounded-xl">
           <div className="absolute right-10 top-7">
             <Image src={img2} width={150} height={10} alt="FooterLogo" />

@@ -14,6 +14,7 @@ module.exports = {
         sanspro: ["Value Sans Pro", "serif"],
         baklida: ["Bakilda Histori", "serif"],
         lemonada: ["Lemonada", "cursive"],
+        abril: ["Abril Display", "serif"],
        
       },
       colors:{

@@ -1,3 +1,4 @@
+'use client'
 import Image from "next/image";
 import icon1 from "../../assets/images/menu-icon.png";
 import icon2 from "../../assets/images/menu-icon1.svg";
@@ -5,8 +6,10 @@ import menu1 from "../../assets/images/menu1.png";
 import menu2 from "../../assets/images/menu2.png";
 import menu3 from "../../assets/images/menu3.png";
 import menu4 from "../../assets/images/menu4.png";
+import menu from "../../assets/images/coffeemenu.png";
 
 const CoffeeMenu = () => {
+  
   return (
     <section className="lg:mt-24 mt-10">
       <div className="container lg:px-20 px-5">
@@ -19,12 +22,13 @@ const CoffeeMenu = () => {
           </div> */}
           <div className="relative flex justify-center item-center">
             <div>
+           
               <h5 className=" font-lemonada text-primaryWine">Why Choose Us</h5>
 
-              {/* <div className=" before:block before:w-10 before:h-[2px] before:bg-primaryWine before:absolute before:left-[430px] before:top-1/2 before:transform before:-translate-y-1/2 after:block after:w-10 after:h-[2px] after:bg-primaryWine after:absolute after:right-[430px] after:top-1/2 after:transform after:-translate-y-1/2"></div> */}
+              <div className=" before:block before:w-10 before:h-[2px] before:bg-primaryWine before:absolute lg:before:left-[430px] before:left-16 before:top-1/2 before:transform before:-translate-y-1/2 after:block after:w-10 after:h-[2px] after:bg-primaryWine after:right-16 after:absolute lg:after:right-[430px]  after:top-1/2 after:transform after:-translate-y-1/2"></div>
             </div>
           </div>
-          <p className="py-2 font-baklida text-2xl text-center">
+          <p className="py-2 font-baklida text-3xl text-center">
             Unlocklive Coffee Menu
           </p>
 
@@ -129,7 +133,7 @@ const CoffeeMenu = () => {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <button className="text-primaryWine border border-primaryWine   px-5 py-3 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine   px-5 py-3 rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300">
             View All Menu
             </button>
           </div>
