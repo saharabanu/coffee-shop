@@ -13,7 +13,7 @@ module.exports = {
         lemon: ["Lemon", "serif"],
         sanspro: ["Value Sans Pro", "serif"],
         baklida: ["Bakilda Histori", "serif"],
-        c: ["Lemonada", "cursive"],
+        lemonada: ["Lemonada", "cursive"],
        
       },
       colors:{

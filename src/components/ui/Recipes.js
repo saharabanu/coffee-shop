@@ -10,13 +10,13 @@ const Recipes = () => {
     <section className="bg-purple py-12 lg:my-16 my-5">
       <div className="container lg:pl-20 ">
         <div className="grid lg:grid-cols-2">
-          <div className="pr-32">
+          <div className="lg:pr-32 lg:px-0 px-10 lg:pb-0 pb-10">
             <div className="relative before:bg-primaryWine before:block before:w-[50px]  before:h-[2px] ">
               <h5 className="absolute left-16 top-[-10px] font-lemonada text-primaryWine">
                 New Recipes
               </h5>
             </div>
-            <h2 className="text-4xl font-baklida py-5">Taste Our New Recipe</h2>
+            <h2 className="lg:text-4xl text-3xl font-baklida py-5">Taste Our New Recipe</h2>
             <p className="font-sanspro">
               Malesuada cursus a tincidunt volutpat posuere lacinia. Congue
               malesuada lacus pharetra ut vel amet. Amet turpis suspendisse
