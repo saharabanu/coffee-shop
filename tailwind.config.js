@@ -13,13 +13,14 @@ module.exports = {
         lemon: ["Lemon", "serif"],
         sanspro: ["Value Sans Pro", "serif"],
         baklida: ["Bakilda Histori", "serif"],
-        lemonada: ["Lemonada", "cursive"],
+        c: ["Lemonada", "cursive"],
        
       },
       colors:{
         'primaryWine':"#86371C",
         'primaryWine1':"#270A05",
         'purple':"#FFFAF2",
+       
         
         
       },
