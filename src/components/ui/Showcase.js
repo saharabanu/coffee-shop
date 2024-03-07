@@ -36,7 +36,7 @@ const Showcase = () => {
         {/* filter btn */}
 
         <div className="py-10 flex justify-center items-center">
-          <div className="lg:flex flex-wrap space-x-5">
+          <div className="lg:flex flex-wrap space-x-5 space-y-3">
             <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
               All
             </button>
@@ -66,7 +66,7 @@ const Showcase = () => {
 
         {/*showcase image gallery */}
 
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center lg:pl-16">
           <div>
           <div className="grid lg:grid-cols-6 gap-5">
             <div className="lg:col-span-2  overflow-hidden bg-cover bg-no-repeat">
@@ -97,7 +97,7 @@ const Showcase = () => {
                 width={400}
                 height={10}
                 alt="chooseLogo"
-                className="h-[250px] transition duration-300 ease-in-out hover:scale-110"
+                className="h-[250px] transition duration-300 ease-in-out hover:scale-110 w-full"
               />
             </div>
             <div className="lg:col-span-2">
@@ -106,7 +106,7 @@ const Showcase = () => {
                 width={400}
                 height={10}
                 alt="chooseLogo"
-                className="h-[250px] transition duration-300 ease-in-out hover:scale-110"
+                className="h-[250px] transition duration-300 ease-in-out hover:scale-110 w-full"
               />
             </div>
             <div className="lg:col-span-3">
@@ -115,7 +115,7 @@ const Showcase = () => {
                 width={400}
                 height={10}
                 alt="chooseLogo"
-                className="h-[250px] transition duration-300 ease-in-out hover:scale-110"
+                className="h-[250px] transition duration-300 ease-in-out hover:scale-110 w-full lg:w-[420px]"
               />
             </div>
           </div>

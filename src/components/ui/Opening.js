@@ -11,7 +11,7 @@ const Opening = () => {
     setShowVideo(!showVideo);
   };
   return (
-    <section className="lg:relative font-sanspro lg:mt-0 mt-16">
+    <section className="lg:relative font-sanspro lg:mt-0 mt-16 ">
       <div className=" bg-purple  py-5 ">
         <div className="container lg:px-20 px-5">
           <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 lg:pl-48">

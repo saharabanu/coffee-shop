@@ -21,7 +21,7 @@ const Choose = () => {
                   Why Choose Us
                 </h5>
               </div>
-              <h2 className="text-4xl font-baklida">
+              <h2 className="lg:text-4xl text-3xl font-baklida">
                 Choosing Unlocklive, A Taste of Perfection
               </h2>
               <p className="font-sanspro">
@@ -29,7 +29,7 @@ const Choose = () => {
                 coffee beans into a symphony of aromatic notes and rich flavors.
               </p>
 
-              <div className="flex space-x-5 items-center">
+              <div className="lg:flex flex-wrap lg:space-x-5 space-x-3 space-y-3 items-center">
                 <div className="flex justify-center items-center border p-4 font-sanspro rounded text-primaryWine1 ">
                   <div>
                     <h2 className="text-center text-2xl  font-baklida"><CountUp end={20} suffix="+" /></h2>
@@ -64,8 +64,8 @@ const Choose = () => {
             </div>
           </div>
           <div className="flex justify-center relative">
-            <Image src={img1} width={400} height={10} alt="chooseLogo" className="z-10"/>
-            <Image className="absolute lg:top-12 hidden lg:block top-16 lg:left-[55px] left-[15px] " src={img2} width={430} height={10} alt="chooseLogo" />
+            <Image src={img1} width={400} height={10} alt="chooseLogo" className="z-10 "/>
+            <Image className="absolute lg:top-12 hidden lg:block  top-16 lg:left-[55px] left-[15px]   2xl:left-[120px]" src={img2} width={430} height={10} alt="chooseLogo" />
 
           </div>
         </div>

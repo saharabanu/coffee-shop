@@ -23,7 +23,7 @@ const CoffeeMenu = () => {
           <div className="relative flex justify-center item-center">
             <div>
            
-              <h5 className=" font-lemonada text-primaryWine">Why Choose Us</h5>
+              <h5 className=" font-lemonada text-primaryWine">Coffee Menu</h5>
 
               <div className=" before:block before:w-10 before:h-[2px] before:bg-primaryWine before:absolute lg:before:left-[430px] before:left-16 before:top-1/2 before:transform before:-translate-y-1/2 after:block after:w-10 after:h-[2px] after:bg-primaryWine after:right-16 after:absolute lg:after:right-[430px]  after:top-1/2 after:transform after:-translate-y-1/2"></div>
             </div>

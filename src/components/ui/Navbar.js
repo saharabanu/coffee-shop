@@ -21,10 +21,10 @@ const Navbar = () => {
     setIsMenuMenuOpen(!isMenuMenuOpen);
   };
   return (
-    <header className="pt-1  font-sanspro text-primaryWine1 sticky top-0 z-50 bg-white">
+    <header className="  font-sanspro text-primaryWine1 sticky top-0 z-50 bg-white">
       <div className="container">
         <div className=" lg:px-20 px-5 font-semibold ">
-          <div className="hidden lg:grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  gap-4 items-center text-[16px] pb-5">
+          <div className="hidden lg:grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1  gap-4 items-center text-[16px] py-2">
             <div>
               <ul className="flex items-center space-x-9 ">
                 <li className="hover:text-primaryWine transition-all duration-300 delay-300 cursor-pointer">

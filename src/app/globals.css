@@ -5,14 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 @font-face {
     font-family: sanspro;
-    src: url('../assets/fonts/font/ValueSansPro-Black.eot'),
+    src: url('../assets/fonts/Value Sans Pro/ValueSansPro-Black.ttf'),
    
    
 };
 /* url('../assets/fonts/font/ValueSansPro-Black.eot'), */
 @font-face {
     font-family:bakilda;
-    src: url('../assets/fonts/Bakilda-Histori-Font/bakilda-histori.ttf') ;
+    src: url('../assets/fonts/Bakilda/bakilda-histori.ttf') ;
 };
 @font-face {
     font-family:lemonada;
@@ -20,7 +20,7 @@
 };
 @font-face {
     font-family:abril;
-    src: url('../assets/fonts/Abril_Display_Black.otf') ;
+    src: url('../assets/fonts/Abril/Abril_Display_Black.otf') ;
 };
 
 
@@ -29,12 +29,61 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Value Sans Pro;
+
 }
-a{
+body{
+    overflow-x: hidden;
+}
+/* a{
     text-decoration: none;
 }
 ul li{
     list-style: none;
+} */
+
+.overlay{
+   height: 320px;
+  width: 0%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  border-radius: 5px;
+  border: 2px solid green;
+  cursor: pointer;
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer; */
+}
+.content{
+    position: absolute;
+    /* top:50%;
+    left:50%;
+    transform: translate(-50%, 50%); */
+    bottom: 10px;
+    border-radius: 5px;
+    color:white;
+    background-color: black;
+    width: 100%;
+
+}
+
+.container:hover .overlay{
+    opacity: 1;
+  visibility: visible;
+  width: 100%;
 }
 .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: var(--swiper-pagination-bottom, -6px) !important;

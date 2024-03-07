@@ -15,24 +15,7 @@ import { useState } from "react";
 
 const Recipes = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
-  const breakpoints = {
-    480: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
-    576: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
-    786: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
-    1024: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
-  };
+  
   //for slide
   const handlePrevClick = () => {
     if (swiperInstance) {
@@ -203,18 +186,20 @@ const Recipes = () => {
             </div>
           </div>
 
-          <div className="grid lg:grid-cols-3 gap-4 lg:ml-[-60px]">
-            <div className="group cursor-pointer rounded-xl relative group overflow-hidden  ">
-            <div
-                class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end"
-            >
-                <div>
-                    <div
-                        class="transform-gpu    text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4  transform transition duration-300 ease-in-out"
-                    >
-                        
+          <div className="grid lg:grid-cols-3 gap-4 lg:ml-[-60px] lg:px-0 px-5">
+           
 
-                        <div class=" text-sm font-sanspro ">
+            <div className="relative cursor-pointer">
+              <Image
+                src={img1}
+                width={500}
+                height={10}
+                alt="FooterLogo"
+                className="h-[320px] w-full "
+              />
+              <div className="overlay ">
+                
+                <div className="content text-sm font-sanspro ">
                            <ul>
                             <li>Pita bread or wraps </li>
                             <li>
@@ -222,18 +207,10 @@ const Recipes = () => {
                             </li>
                            </ul>
                         </div>
-                    </div>
-                </div>
+               
+              </div>
             </div>
-              <Image
-                src={img1}
-                width={300}
-                height={10}
-                alt="FooterLogo"
-                className="h-[320px]  object-cover w-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-              />
-            </div>
-            <div className="">
+            <div className="relative overflow-hidden">
               <Image
                 src={img2}
                 width={500}
@@ -241,8 +218,20 @@ const Recipes = () => {
                 alt="FooterLogo"
                 className="h-[320px] w-full"
               />
+              <div className="overlay ">
+                
+                <div className="content text-sm font-sanspro ">
+                           <ul>
+                            <li>Pita bread or wraps </li>
+                            <li>
+                            Toppings: tomatoes, tahini sauce, etc.
+                            </li>
+                           </ul>
+                        </div>
+               
+              </div>
             </div>
-            <div className="">
+            <div className="relative overflow-hidden">
               <Image
                 src={img3}
                 width={300}
@@ -250,7 +239,30 @@ const Recipes = () => {
                 alt="FooterLogo"
                 className="h-[320px] w-full"
               />
+              <div className="overlay ">
+                
+                <div className="content text-sm font-sanspro ">
+                           <ul>
+                            <li>Pita bread or wraps </li>
+                            <li>
+                            Toppings: tomatoes, tahini sauce, etc.
+                            </li>
+                           </ul>
+                        </div>
+               
+              </div>
             </div>
+
+
+            {/* <div className="">
+              <Image
+                src={img3}
+                width={300}
+                height={10}
+                alt="FooterLogo"
+                className="h-[320px] w-full"
+              />
+            </div> */}
 
         
 
