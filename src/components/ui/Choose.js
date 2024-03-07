@@ -29,7 +29,7 @@ const Choose = () => {
                 coffee beans into a symphony of aromatic notes and rich flavors.
               </p>
 
-              <div className="lg:flex flex-wrap lg:space-x-5 space-x-3 space-y-3 items-center">
+              <div className="lg:flex flex-wrap lg:space-x-5 space-x-3 space-y-5 items-center">
                 <div className="flex justify-center items-center border p-4 font-sanspro rounded text-primaryWine1 ">
                   <div>
                     <h2 className="text-center text-2xl  font-baklida"><CountUp end={20} suffix="+" /></h2>

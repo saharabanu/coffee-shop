@@ -37,28 +37,28 @@ const Showcase = () => {
 
         <div className="py-10 flex justify-center items-center">
           <div className="lg:flex flex-wrap space-x-5 space-y-3">
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               All
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Burger
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Drinks
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Pizza
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Dinner
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Lunch
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Cookies
             </button>
-            <button className="text-primaryWine border border-primaryWine   px-2 py-1 rounded-xl outline-none ">
+            <button className="text-primaryWine border border-primaryWine    rounded-xl outline-none hover:bg-primaryWine ease-in-out hover:text-white cursor-pointer transition-all duration-300 delay-300   px-2 py-1  ">
               Bakery
             </button>
           </div>

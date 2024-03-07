@@ -15,7 +15,7 @@ import { useState } from "react";
 
 const Recipes = () => {
   const [swiperInstance, setSwiperInstance] = useState(null);
-  
+
   //for slide
   const handlePrevClick = () => {
     if (swiperInstance) {
@@ -29,7 +29,6 @@ const Recipes = () => {
     }
   };
 
- 
   return (
     <section className="bg-purple py-12 lg:my-16 my-5 font-sanspro text-primaryWine1">
       <div className="container lg:pl-20 ">
@@ -176,41 +175,40 @@ const Recipes = () => {
             {/* slider btn */}
             <div className="flex items-center text-2xl justify-start mt-7">
               <div className="">
-                <button onClick={handlePrevClick} className=" border border-primaryWine1 rounded-full p-1">
+                <button
+                  onClick={handlePrevClick}
+                  className=" border border-primaryWine1 rounded-full p-1"
+                >
                   <IoArrowBackOutline />
                 </button>
-                <button onClick={handleNextClick} className="border border-primaryWine1 rounded-full p-1 ml-5">
+                <button
+                  onClick={handleNextClick}
+                  className="border border-primaryWine1 rounded-full p-1 ml-5"
+                >
                   <IoArrowForward />
                 </button>
               </div>
             </div>
           </div>
-
           <div className="grid lg:grid-cols-3 gap-4 lg:ml-[-60px] lg:px-0 px-5">
-           
-
             <div className="relative cursor-pointer">
               <Image
                 src={img1}
                 width={500}
                 height={10}
                 alt="FooterLogo"
-                className="h-[320px] w-full "
+                className="h-[320px] w-full"
               />
-              <div className="overlay ">
-                
-                <div className="content text-sm font-sanspro ">
-                           <ul>
-                            <li>Pita bread or wraps </li>
-                            <li>
-                            Toppings: tomatoes, tahini sauce, etc.
-                            </li>
-                           </ul>
-                        </div>
-               
+              <div className="overlay absolute top-0 left-0 h-full w-full bg-black bg-opacity-60 flex justify-center items-center opacity-0 invisible transition duration-300 ease-in-out">
+                <div className="content text-sm font-sanspro text-white">
+                  <ul>
+                    <li>Pita bread or wraps</li>
+                    <li>Toppings: tomatoes, tahini sauce, etc.</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div className="relative overflow-hidden">
+            <div className="relative cursor-pointer">
               <Image
                 src={img2}
                 width={500}
@@ -218,20 +216,16 @@ const Recipes = () => {
                 alt="FooterLogo"
                 className="h-[320px] w-full"
               />
-              <div className="overlay ">
-                
-                <div className="content text-sm font-sanspro ">
-                           <ul>
-                            <li>Pita bread or wraps </li>
-                            <li>
-                            Toppings: tomatoes, tahini sauce, etc.
-                            </li>
-                           </ul>
-                        </div>
-               
+              <div className="overlay absolute top-0 left-0 h-full w-full bg-black bg-opacity-60 flex justify-center items-center opacity-0 invisible transition duration-300 ease-in-out">
+                <div className="content text-sm font-sanspro text-white">
+                  <ul>
+                    <li>Pita bread or wraps</li>
+                    <li>Toppings: tomatoes, tahini sauce, etc.</li>
+                  </ul>
+                </div>
               </div>
             </div>
-            <div className="relative overflow-hidden">
+            <div className="relative cursor-pointer">
               <Image
                 src={img3}
                 width={300}
@@ -239,37 +233,19 @@ const Recipes = () => {
                 alt="FooterLogo"
                 className="h-[320px] w-full"
               />
-              <div className="overlay ">
-                
-                <div className="content text-sm font-sanspro ">
-                           <ul>
-                            <li>Pita bread or wraps </li>
-                            <li>
-                            Toppings: tomatoes, tahini sauce, etc.
-                            </li>
-                           </ul>
-                        </div>
-               
+              <div className="overlay absolute top-0 left-0 h-full w-full bg-black bg-opacity-60 flex justify-center items-center opacity-0 invisible transition duration-300 ease-in-out">
+                <div className="content text-sm font-sanspro text-white">
+                  <ul>
+                    <li>Pita bread or wraps</li>
+                    <li>Toppings: tomatoes, tahini sauce, etc.</li>
+                  </ul>
+                </div>
               </div>
             </div>
-
-
-            {/* <div className="">
-              <Image
-                src={img3}
-                width={300}
-                height={10}
-                alt="FooterLogo"
-                className="h-[320px] w-full"
-              />
-            </div> */}
-
-        
+          </div>
 
           
-          </div>
         </div>
-        
       </div>
     </section>
   );

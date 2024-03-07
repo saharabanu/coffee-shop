@@ -11,6 +11,16 @@ import { MdMenu } from "react-icons/md";
 
 const ResponsiveNavbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [isPagesMenuOpen, setIsPagesMenuOpen] = useState(false);
+  const [isMenuMenuOpen, setIsMenuMenuOpen] = useState(false);
+
+  const togglePagesMenu = () => {
+    setIsPagesMenuOpen(!isPagesMenuOpen);
+  };
+
+  const toggleMenuMenu = () => {
+    setIsMenuMenuOpen(!isMenuMenuOpen);
+  };
 
   return (
     <header>
@@ -29,7 +39,69 @@ const ResponsiveNavbar = () => {
             </div>
           </div>
           {showMenu && (<>
-            <ul className="lg:hidden flex flex-col items-center mt-4 space-y-2">
+            <ul className="lg:hidden flex flex-col items-center mt-4 space-y-2 ">
+                <li className="hover:text-primaryWine transition-all duration-300 delay-300 cursor-pointer">
+                  <Link href="/">Home</Link>
+                </li>
+               
+                <li
+                  className="hover:text-primaryWine transition-all duration-300 delay-300 relative cursor-pointer"
+                  onMouseEnter={() => togglePagesMenu()} 
+                  onMouseLeave={() => togglePagesMenu()} 
+                >
+                  <div className="flex  items-center cursor-pointer">
+                  Pages{" "}
+                    <span className="pl-1">
+                      <MdKeyboardArrowDown />
+                    </span>
+                  </div>
+                  {isPagesMenuOpen && ( 
+                    <ul className="absolute top-full left-0 mt-1 bg-white shadow-lg py-1 px-5  w-28 rounded">
+                      <li>
+                        <Link href="/">Page 1</Link>
+                      </li>
+                      <li>
+                        <Link href="/">Page 2</Link>
+                      </li>
+                      <li>
+                        <Link href="/">Page 3</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                <li
+                  className="hover:text-primaryWine transition-all duration-300 delay-300 relative"
+                  onMouseEnter={() => toggleMenuMenu()} 
+                  onMouseLeave={() => toggleMenuMenu()} 
+                >
+                  <div className="flex  items-center cursor-pointer">
+                    Menu{" "}
+                    <span className="pl-1">
+                      <MdKeyboardArrowDown />
+                    </span>
+                  </div>
+                  {isMenuMenuOpen && ( 
+                    <ul className="absolute top-full left-0 mt-1 bg-white shadow-lg py-1 px-5  w-28 rounded">
+                      <li>
+                        <Link href="/">Menu 1</Link>
+                      </li>
+                      <li>
+                        <Link href="/">Menu 2</Link>
+                      </li>
+                      <li>
+                        <Link href="/">Menu 3</Link>
+                      </li>
+                    </ul>
+                  )}
+                </li>
+                
+               
+                <li className="hover:text-primaryWine transition-all duration-300 delay-300 cursor-pointer">
+                  <Link href="/">Contact Us</Link>
+                </li>
+              </ul>
+            {/* <ul className="lg:hidden flex flex-col items-center mt-4 space-y-2">
               <li>
                 <Link href="/">Home</Link>
               </li>
@@ -42,7 +114,7 @@ const ResponsiveNavbar = () => {
               <li>
                 <Link href="/">Contact Us</Link>
               </li>
-            </ul>
+            </ul> */}
             <div className="flex justify-center items-center">
             <div className=" ">
               <ul className="flex items-center space-x-2">
